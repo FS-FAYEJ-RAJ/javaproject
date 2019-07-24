@@ -1,0 +1,139 @@
+
+package javabasic3;
+
+    import java.util.Scanner;
+
+
+public class Javabasic3 {
+
+  
+    public static void main(String[] args) {
+    
+        Scanner input=new Scanner(System.in);
+           int a=10;
+       int b=10;
+       int c=a+b;
+        System.out.println("Ans c:"+c);
+        //System.out.println(c);
+        boolean d=true;
+        System.out.println("Enter boolean data type:"+c);
+        double e=44;
+        int f=4;
+        double g=e%f;
+        System.out.println(g);
+       
+        String name,ch;
+        name="MD Fayej";
+        ch="Raj";
+        boolean ruselt=(name==ch);
+        System.out.println("Equals value:"+ruselt);
+        //logiccal oparetor
+        int num1,num2,num3;
+        num1=20;
+        num2=20;
+        num3=20;
+        //and oparetor
+        if(num1==num2 && num2==num3)
+        {
+            System.out.println("and oparetor type:true");
+        }
+        else
+        {
+            System.out.println("and oparetor flose");
+        }
+            //not oparetor
+          double x=44;
+          double y=5.5;
+          boolean s= x !=y;
+          System.out.println("or oppretor:"+s);
+          
+          //or oparetor
+          float m,n;
+          m=2.2f;
+          n=3.33f;
+          if((m!=n) | (m==n))   
+          {
+              System.out.println("or oparetor:yes");
+          }
+          else
+          {
+              System.out.println("or oparetor:no");
+          }
+          // relation oparetor
+          int g1,h;
+                  g1=55;
+                  h=44;
+                  //logical <then oparetor
+                  if(g1<h)
+                  {
+                      System.out.println("logical opareto:yes ");
+                  }
+                  else
+                  {
+                      System.out.println("logical oparetor:no");
+                  }
+                  //relation oparetor <= oparetor
+                  float k=3.4f;
+                  float l=4.6f;
+                  if(k<=l)
+                  {
+                      System.out.println("ans true");
+                  }
+                  else
+                  {
+                      System.out.println("Ans flose");
+                  }
+                  char o = 's';
+                  char p='r';
+                  if(o==p)
+                  {
+                      System.out.println("yes");
+                  }
+                  else
+                  {
+                      System.out.println("no");
+                  }
+                  
+                  
+                  
+          
+            // leep year 
+            
+            System.out.print("Enter any Year:");
+            int year =input.nextInt();
+            if(year%4==0 && year%100 !=0 || year%400==0)
+            {
+                System.out.println("leep Year");
+            }
+            else
+                System.out.println("not leep year");
+            
+            
+            // odd and even digit;
+            
+            System.out.println("Enter Any value:");
+            int vi=input.nextInt();
+            if(vi%2==0)
+            {
+                System.out.println("odd:"+vi);
+            }
+            else
+                System.out.println("Event:"+vi);
+            
+            
+            
+            
+                    
+            
+            
+            
+      
+        
+                
+       
+        
+        
+      
+    }
+    
+}
