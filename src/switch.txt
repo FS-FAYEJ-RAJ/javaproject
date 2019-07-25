@@ -1,0 +1,31 @@
+
+package switchstetment;
+
+import java.util.Scanner;
+
+public class switch1 {
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        
+        int a;
+        System.out.println("Please Enter Any value:");
+        a=input.nextInt();
+        
+        switch(a)
+        {
+            case 10:
+                System.out.println("Number is 10");
+                break;
+            case 20:
+                System.out.println(" Number is 20");
+                break;
+            case 30:
+                System.out.println("Number is 30");
+            default:
+                System.out.println("Number is not maching");
+                        
+        }
+        
+    }
+    
+}
