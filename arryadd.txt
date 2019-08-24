@@ -1,0 +1,33 @@
+
+package problem;
+
+public class problem3 { 
+    public static void main(String[] args) {
+        int[] a={2,3,4,5};
+        int[] b={6,7,8};
+        int large= a.length+b.length;
+        
+        int[] c= new int[large];
+        int position=0;
+        for (int ruselt:a) {
+            c[position]=ruselt;
+                position++;
+            
+        }
+         for (int ruselt:b) {
+            c[position]=ruselt;
+                position++;
+            
+        }
+         for (int i = 0; i <c.length; i++) 
+             System.out.print("ans"+c[i]);
+            
+        
+        
+        
+        
+        
+    }
+            
+    
+}
