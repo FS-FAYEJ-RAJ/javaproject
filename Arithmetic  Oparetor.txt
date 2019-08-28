@@ -1,0 +1,27 @@
+
+package alloparetor;
+
+import java.util.Scanner;
+
+
+public class Alloparetor {
+
+    public static void main(String[] args) { 
+     Scanner scan=new Scanner (System.in);
+     
+     int a=scan.nextInt();
+     int b=scan.nextInt();
+     
+      int c= a+b;
+      int d=a-b;
+      int e=a*b;
+      int f=a/b;
+        System.out.println("Ans a+b="+c);
+        System.out.println("ans a-b="+d);
+        System.out.println("ans a*b="+e);
+        System.out.println("ans a/b="+f);
+        
+     
+    }
+    
+}
