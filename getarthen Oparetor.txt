@@ -1,0 +1,21 @@
+
+package Comparisongoparetor;
+
+import java.util.Scanner;
+
+
+public class getarthen { public static void main(String[] args) {
+        Scanner se=new Scanner (System.in);
+        int i=se.nextInt();
+        int j=se.nextInt();
+        
+            if (i>j) 
+            {
+                System.out.println("Right");                
+            }
+            else
+                System.out.println("floase");
+    }
+        
+    
+}
