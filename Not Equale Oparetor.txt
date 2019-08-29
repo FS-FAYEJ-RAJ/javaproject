@@ -1,0 +1,22 @@
+
+package Comparisongoparetor;
+
+import java.util.Scanner;
+
+
+public class notequale { 
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+        int i=input.nextInt();
+        int j=input.nextInt();
+        
+        if (i != j) 
+        {
+            System.out.println("right Ans");
+            
+        }
+        else
+            System.out.println("floase");
+    }
+    
+}
