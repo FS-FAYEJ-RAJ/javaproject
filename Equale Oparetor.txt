@@ -1,0 +1,22 @@
+
+package Comparisongoparetor;
+
+import java.util.Scanner;
+
+
+public class equalequale { public static void main(String[] args) {
+        Scanner input =new Scanner(System.in);
+        
+        int m=input.nextInt();
+        int n=input.nextInt();
+        
+            if (m==n) 
+            { 
+                System.out.println("right Ans");
+                
+            }
+            else
+                System.out.println("floase");
+    }
+    
+}
